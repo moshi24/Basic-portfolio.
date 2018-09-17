@@ -1,0 +1,69 @@
+body {
+    background-image: url("../images/ep_naturalwhite.png");
+}
+
+#myName {
+    text-align: center;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    font: bold;
+    right: 918px;
+    width: 15%;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.nav {
+    margin-top: 0;
+    background-color: #ffffff;
+    text-align: right;
+    border-bottom: 4px solid #cccccc;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 24px;
+    color:  #777777;
+    margin: 0;
+}
+
+
+.content {
+    height: 400px;
+    width: 50%;
+    background-color: #ffffff;
+    overflow: auto;
+    margin: 20px 20px 20px 20px;
+    margin: 0% auto;
+}
+
+#border {
+    border-bottom: 3px solid #777777;
+    color: #4aaaa5;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.main {
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#image {
+    float: left;
+    padding: 20px;
+}
+
+.copyright {
+    padding: 40px 40px;
+}
+
+.footer {
+    border-top:10px solid #4aaaa5;
+    background-color: #666666;
+    padding: 40px;
+}
+
