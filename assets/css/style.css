@@ -1,69 +1,145 @@
 body {
     background-image: url("../images/ep_naturalwhite.png");
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
-#myName {
+h1 {
     text-align: center;
     background-color:#4aaaa5;
     color: #ffffff;
-    position: absolute;
     font: bold;
-    right: 918px;
     width: 15%;
     height: 70px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute; 
+    margin: 0%;
+    right: 66%; 
 }
 
 .nav {
-    margin-top: 0;
+    display: inline-block;
     background-color: #ffffff;
     text-align: right;
     border-bottom: 4px solid #cccccc;
+    margin: 0%;
+    position: relative;
+    height: 70px;
+    width: 100%;
+    z-index: -1; 
 }
 
 .nav li {
     display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 24px;
+    padding: 25px;
     color:  #777777;
     margin: 0;
+    position: relative;
+    right: 20%;
 }
-
 
 .content {
-    height: 400px;
-    width: 50%;
+    height: 450px;
+    width: 960px;
     background-color: #ffffff;
     overflow: auto;
-    margin: 20px 20px 20px 20px;
     margin: 0% auto;
+    position: relative;
+    top: 30px;   
 }
 
-#border {
-    border-bottom: 3px solid #777777;
+.me {
     color: #4aaaa5;
-    padding-left: 20px;
-    font-family: 'Times New Roman', Times, serif
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.line {
+    border-top: 2px solid #dddddd;
+    margin: auto;
+    width: 900px
 }
 
 .main {
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    line-height: 200%; 
 }
+
 
 #image {
     float: left;
     padding: 20px;
 }
 
-.copyright {
-    padding: 40px 40px;
-}
 
 .footer {
-    border-top:10px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
     background-color: #666666;
-    padding: 40px;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cccccc;
 }
 
+.copy {
+    position: relative;
+    top: 40px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* position: relative;
+    right: 5px;
+    top: 5px; */
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* position: relative;
+    left: 5px;
+    padding: 2rem; */
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    height: 50%;
+    /* position: relative;
+    left: 5px;
+    top: 5px; */
+}
+
+#contact {
+    border-radius: 5px;
+    padding: 20px;
+    color:  #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
