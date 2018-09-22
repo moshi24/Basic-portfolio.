@@ -204,38 +204,61 @@ input, textarea {
     margin: auto;
     width: 900px
 }
- 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    z-index: -1;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+/* div.desc {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    text-align: center;
+} */
+
 .Column {
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     top: 100px;
     left: 50px;
-
 }
 
 .ferry {
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     top: 100px;
     left: 300px;
 }
 
 .food {
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     top: 350px;
     left: 50px;
 }
 
 .burger {
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     top: 350px;
     left: 300px;
 }
 
 .bowl {
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     top: 600px;
     left: 50px;
