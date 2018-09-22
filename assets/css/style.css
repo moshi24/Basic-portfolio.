@@ -5,17 +5,20 @@ body {
     padding: 0;
     margin: 0;
     border: none;
+    height: 100%;
+    width: 100%;
 }
 
 /* container of the header */
 .box {
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color: #ffffff;
     padding: 8px;
     border-bottom: 4px solid  #cccccc;
 }
 
+/* container of the name & style */
 .name {
     background-color:#4aaaa5;
     padding-top: 26px;
@@ -24,24 +27,27 @@ body {
     text-align: center;
     color: #ffffff;
     font: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     position:absolute; 
     margin: 0%;
     right: 66%;
     top: 0%; 
 }
 
-
+/* navigation text side appears to the right */
 nav {
     float: right;
 }
 
+/* get rid of the any undesired style */
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+/* align and margin; list */
 nav li {
     display: inline-block;
     position: relative;
@@ -50,43 +56,50 @@ nav li {
     padding-top: 20px;
 }
 
+/* styling the list navigation bar */
 nav a {
-    color: #666666;
+    color: #777777;
     text-decoration: none;
     text-transform: uppercase;
-    font: bold;
-    font-size: 18px;
+    font: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
-
+/* hover the navigation list */
 nav a:hover {
     color: #4aaaa5;
     
 }
+
+/* the main container / block */
 .content {
-    height: 450px;
+    height: 500px;
     width: 960px;
     background-color: #ffffff;
     overflow: auto;
     margin: 0% auto;
     position: relative;
     top: 30px;
-
 }
 
+/* heading for the main container */
 .me {
     color: #4aaaa5;
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font: bold;
+    font-size: 15px;
 }
 
+/* a solid border under the header from the container */
 .line {
     border-top: 4px solid #dddddd;
     margin: auto;
     width: 900px
 }
 
+/* styling the text */
 .main {
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
@@ -94,42 +107,53 @@ nav a:hover {
     line-height: 200%; 
 }
 
-
+/* adjusting the position of the image */
 #image {
     float: left;
     padding: 20px;
 }
 
-
+/* margin of the footer */
 .footer {
     border-top:8px solid #4aaaa5;
     background-color: #666666;
-    width: 100%;
-    height: 80px;
+    width: auto;
+    height: 40px;
+    padding: 20px;
     position: relative;
-    top: 130px;
+    top: 80px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     color: #cccccc;
 }
 
+/* position the copyright */
 .copy {
     position: relative;
-    top: 45px;
+    top: 10px;
+}
+
+
+.contentCo {
+    height: 600px;
+    width: 960px;
+    background-color: #ffffff;
+    overflow: auto;
+    margin: 0% auto;
+    position: relative;
+    top: 30px;
 }
 
 input[type=text], select {
     width: 100%;
-    padding: 12px 20px 20px;
+    padding: 12px 15px 15px;
     margin: 8px 0;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    /* position: relative;
-    right: 5px;
-    top: 5px; */
+    
 }
 
 input[type=submit] {
@@ -151,7 +175,7 @@ input[type=submit]:hover {
 input, textarea {
     display: block;
     width: 100%;
-    height: 50%;
+    height: 40%;
   
 }
 
@@ -159,7 +183,60 @@ input, textarea {
     border-radius: 5px;
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    font: bolder;
     padding: 2rem;
     
+}
+
+.contentPo {
+    height: 900px;
+    width: 960px;
+    background-color: #ffffff;
+    overflow: auto;
+    margin: 0% auto;
+    position: relative;
+    top: 30px;
+}
+
+.linePo {
+    border-top: 4px solid #dddddd;
+    margin: auto;
+    width: 900px
+}
+ 
+.Column {
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+
+.ferry {
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.food {
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.burger {
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+.bowl {
+    padding: 20px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
 }
