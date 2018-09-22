@@ -1,3 +1,5 @@
+
+/* background style: natural white; margin */
 body {
     background-image: url("../images/ep_naturalwhite.png");
     padding: 0;
@@ -5,42 +7,61 @@ body {
     border: none;
 }
 
-h1 {
-    text-align: center;
+/* container of the header */
+.box {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 8px;
+    border-bottom: 4px solid  #cccccc;
+}
+
+.name {
     background-color:#4aaaa5;
+    padding-top: 26px;
+    width: 15%;
+    height: 50px;
+    text-align: center;
     color: #ffffff;
     font: bold;
-    width: 15%;
-    height: 70px;
     font-family: 'Times New Roman', Times, serif;
     position:absolute; 
     margin: 0%;
-    right: 66%; 
+    right: 66%;
+    top: 0%; 
 }
 
-.nav {
-    display: inline-block;
-    background-color: #ffffff;
-    text-align: right;
-    border-bottom: 4px solid #cccccc;
-    margin: 0%;
-    position: relative;
-    height: 70px;
-    width: 100%;
-    z-index: -1; 
+
+nav {
+    float: right;
 }
 
-.nav li {
-    display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 25px;
-    color:  #777777;
+nav ul {
     margin: 0;
-    position: relative;
-    right: 20%;
+    padding: 0;
+    list-style: none;
 }
 
+nav li {
+    display: inline-block;
+    position: relative;
+    right: 80%;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+nav a {
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+    
+}
 .content {
     height: 450px;
     width: 960px;
@@ -48,7 +69,8 @@ h1 {
     overflow: auto;
     margin: 0% auto;
     position: relative;
-    top: 30px;   
+    top: 30px;
+
 }
 
 .me {
@@ -60,7 +82,7 @@ h1 {
 }
 
 .line {
-    border-top: 2px solid #dddddd;
+    border-top: 4px solid #dddddd;
     margin: auto;
     width: 900px
 }
@@ -88,12 +110,13 @@ h1 {
     top: 130px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
     color: #cccccc;
 }
 
 .copy {
     position: relative;
-    top: 40px;
+    top: 45px;
 }
 
 input[type=text], select {
@@ -118,9 +141,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    /* position: relative;
-    left: 5px;
-    padding: 2rem; */
+
 }
 
 input[type=submit]:hover {
@@ -131,15 +152,14 @@ input, textarea {
     display: block;
     width: 100%;
     height: 50%;
-    /* position: relative;
-    left: 5px;
-    top: 5px; */
+  
 }
 
 #contact {
     border-radius: 5px;
-    padding: 20px;
     color:  #777777;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     padding: 2rem;
+    
 }
